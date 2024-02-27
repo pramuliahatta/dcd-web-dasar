@@ -16,12 +16,12 @@
             <ul>
                 <li><a href="./">Home</a></li>
                 <li><a href="#tribute-info">Timeline</a></li>
-                <li><a href="#reference">Reference</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <div id="main">
+            <button id="btn-show" class="hide-element">&#9776;</button>
             <figure id="img-div">
                 <img id="image" src="assets/img/independence.jpg" alt="The independence of Indonesia">
                 <figcaption id="img-caption">
@@ -50,25 +50,24 @@
                 </ul>
                 <p>if you want to learn more of this person, you can read it <a href="https://en.wikipedia.org/wiki/Mohammad_Hatta" target="_blank">here</a>.</p>
             </article>
-            <article id="reference">
-                <h2>Reference</h2>
-                <ol>
-                    <li><a href="https://en.wikipedia.org/wiki/Mohammad_Hatta">Wikipedia</a></li>
-                    <li><a href="https://time.graphics/period/1231395">TimeGraphics</a></li>
-                </ol>
-            </article>
         </div>
-        <aside>
-            <h3>Profile</h3>
-            <p><img class="img-profile" src="assets/img/mohhatta.jpg" alt="Moh. Hatta"></p>
-            <p>Mohammad Hatta </p>
-            <p>12 Agustus 1902</p>
-            <p>s/d</p>
-            <p>14 Maret 1980</p>
+        <aside id="profile">
+            <article>
+                <div>
+                    <button id="btn-hide">&gt;</button>    
+                    <h3>Profile</h3>
+                </div>
+                <p><img class="img-profile" src="assets/img/mohhatta.jpg" alt="Moh. Hatta"></p>
+                <h3>Mohammad Hatta </h3>
+                <p>12 Agustus 1902</p>
+                <p>s/d</p>
+                <p>14 Maret 1980</p>
+            </article>
         </aside>
     </main>
     <footer>
         <p>Tribute Page &copy; 2024</p>
     </footer>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
